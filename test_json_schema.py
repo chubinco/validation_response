@@ -18,13 +18,12 @@ from jsonschema import Draft201909Validator
     {
         "data": {
             "names": ["messageId", "phraseText", "topK", "cus"],
-            "tensor": {"shape": [1, 5],
+            "tensor": {"shape": [1, 10],
                        "values": [
                            "19",
                            "Подскажите как оформить кредитную карту и ипотеку  альфа банка? ",
-                           11,
-                           "test_cus_11",
-                           "summ"]
+                           -1,
+                           "test_cus_11"]
                        }
         }
     }
