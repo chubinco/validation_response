@@ -27,7 +27,8 @@ def json_schema():
                                     {"type": "string", "maxLength": 100},
                                     {"type": "integer", "minimum": 1},
                                     {"type": "string", "maxLength": 100}
-                                ]
+                                ],
+                                "additionalItems": False
                             }
                         },
                         "required": ["shape", "values"],

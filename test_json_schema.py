@@ -22,8 +22,9 @@ from jsonschema import Draft201909Validator
                        "values": [
                            "19",
                            "Подскажите как оформить кредитную карту и ипотеку  альфа банка? ",
-                           -1,
-                           "test_cus_11"]
+                           11,
+                           "test_cus_11",
+                           "summary"]
                        }
         }
     }
